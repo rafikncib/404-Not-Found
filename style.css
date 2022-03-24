@@ -6,49 +6,44 @@
   body{
     position: relative;
     font-family: monospace;
-    background: #FFFFFF;
-    color: white;
+    background-color: #FFFFFF !important;
+    min-height: 770px !important;
+    padding-top: 40px;
     padding-left: 77px;
-    padding-right: 119px;
-
-    width: 1440px;
-    height: 1080px;
 }
 
 
-header{
-    margin-top: 40px;
-}
+
 header h1{
     font-family: inconsolata;
     color: #333333;
     font-weight: 700;
 
 }
-
+section .img-fluid{
+    height:448px ;
+}
 section h2{
     font-weight: 700;
-
+    width: 70%;
     font-size: 64px;
     font-style: normal;
     line-height: 95px;
     letter-spacing: -0.035em;
     text-align: left;
-    height: 190px;
-    width: 586px;
+    
 }
 
 section p{
     color: #4F4F4F;
     font-weight: 400;
-
+    width: 38%;
     font-size: 24px;
     font-style: normal;
     line-height: 36px;
     letter-spacing: -0.035em;
     text-align: left;
-    width: 381px;
-    height: 108px;
+    margin-top: 20px;
 }
 
 section button{
@@ -57,23 +52,60 @@ section button{
     height: 68px;
     color: white;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 footer{
     position: absolute;
     bottom: 24px;
-    
 }
-h3{
+footer h3{
     font-family: 'Montserrat';
-    width: 287px;
-    height: 17px;
+    
     font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
 
-text-align: center;
+    text-align: center;
 
-color: #BDBDBD;
+    color: #BDBDBD;
 }
+
+
+@media screen and (max-width: 576px) {
+    body {
+      min-height: 800px !important;
+      padding-top: 20px;
+      padding-left: 24px;
+      
+    }
+    section .img-fluid{
+        height:238px;
+    }
+    section h2{
+        font-size: 48px;
+        line-height: 71px;
+        width: 60%;
+    }
+    section p{
+        margin-top: 10px;
+        width: 40%;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        
+        
+    }
+    section button{
+        margin-top: 20px;
+        font-size: 14px;
+        width: 216px;
+        height: 68px;
+    }
+
+    footer h3{
+        font-size: 18px;
+        
+    }
+  }
