@@ -1,0 +1,79 @@
+@font-face {
+    font-family: inconsolata;
+    src: url(Inconsolata.otf);
+  }
+
+  body{
+    position: relative;
+    font-family: monospace;
+    background: #FFFFFF;
+    color: white;
+    padding-left: 77px;
+    padding-right: 119px;
+
+    width: 1440px;
+    height: 1080px;
+}
+
+
+header{
+    margin-top: 40px;
+}
+header h1{
+    font-family: inconsolata;
+    color: #333333;
+    font-weight: 700;
+
+}
+
+section h2{
+    font-weight: 700;
+
+    font-size: 64px;
+    font-style: normal;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    height: 190px;
+    width: 586px;
+}
+
+section p{
+    color: #4F4F4F;
+    font-weight: 400;
+
+    font-size: 24px;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    width: 381px;
+    height: 108px;
+}
+
+section button{
+    background-color: #333333;
+    width: 216px;
+    height: 68px;
+    color: white;
+    text-transform: uppercase;
+}
+footer{
+    position: absolute;
+    bottom: 24px;
+    
+}
+h3{
+    font-family: 'Montserrat';
+    width: 287px;
+    height: 17px;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #BDBDBD;
+}
